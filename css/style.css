@@ -15,9 +15,7 @@ color:#FFFFFF;
 font:15px Karla,sans-serif;
 margin-top: 4vh}
 
-#mc-embedded-subscribe-form{
-	text-align:center;
-}
+#mc_embed_signup form {display:block; position:relative; text-align:center; padding:10px 0 10px 3%}
 
 form{
 text-align:center;
