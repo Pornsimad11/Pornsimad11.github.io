@@ -6,7 +6,7 @@ body{
 
 }
 
-#mc_embed_signup form{
+#mc_embed_signup{
 text-align:center;
 padding:20px;
 background:#F15C58; 
@@ -14,6 +14,10 @@ clear:center;
 color:#FFFFFF;
 font:15px Karla,sans-serif;
 margin-top: 4vh}
+
+form{
+	
+}
 
 #mce-EMAIL{
 	font:15px Karla,sans-serif;
