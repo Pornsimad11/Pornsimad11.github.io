@@ -6,7 +6,33 @@ body{
 
 }
 
+#mc_embed_signup{
+text-align:center;
+padding:20px;
+background:#F15C58; 
+clear:center; 
+color:#FFFFFF;
+font:15px Karla,sans-serif;
+margin-top: 4vh}
+
+#mce-EMAIL{
+	font:15px Karla,sans-serif;
+	width:270px;
+	text-align: center;
+}
+
+#mc-embedded-subscribe{
+	font:15px Karla,sans-serif;
+
+}
+
+#mc_embed_signup_scroll{
+	position: relative;
+	display: inline-block;
+}
+
 .image-container{
+	margin-top:2vh;
 	background-size: cover;
 	width: 100%;
 	overflow: hidden;
@@ -64,6 +90,10 @@ body{
     margin-top:12.5vw;
     margin-right:10vw;
     margin-left:65px;
+    position: relative;
+    display: inline-block;
+
+
 
 }
 #game{ 
@@ -80,6 +110,7 @@ body{
     display: block;
     overflow: hidden;
     margin-right: 4.5vw;
+   
 }
 
 .copyright{
@@ -88,7 +119,6 @@ body{
 	font-family: 'Karla', sans-serif;
 	color:#FFFFFF;
 	text-align: center;
-	margin-right: 4.5vw;
 }
 
 #background_image{ 
@@ -111,6 +141,15 @@ iframe {
 
 
 @media (max-width: 1100px){
+
+	#mc_embed_signup{
+text-align:center;
+padding:20px;
+background:#F15C58; 
+clear:center; 
+color:#FFFFFF;
+font:15px Karla,sans-serif;
+margin-top: 10vh}
 
 .description{
 font-family: 'Karla', sans-serif;
@@ -180,19 +219,18 @@ iframe {
 	margin-top: 0vw;
 	margin-bottom: 3vw;
  }
-.copyright{
-    margin-top:3vw;
-    margin-bottom:3vw;
-	font-family: 'Karla', sans-serif;
-	color:#FFFFFF;
-	text-align: center;
-	margin-right: 0;
-}
-
 
 }
 
 @media (max-width: 650px){
+#mc_embed_signup{
+text-align:center;
+padding:20px;
+background:#F15C58; 
+clear:center; 
+color:#FFFFFF;
+font:15px Karla,sans-serif;
+margin-top: 5vh}
 
 .description{
 font-family: 'Karla', sans-serif;
@@ -268,15 +306,4 @@ iframe {
  }
 
 
-.copyright{
-    margin-top:3vw;
-    margin-bottom:3vw;
-	font-family: 'Karla', sans-serif;
-	color:#FFFFFF;
-	text-align: center;
-	margin-right: 2px;
-	margin-left: 2px;
-	font-size: 13px;
-}
 
-}
